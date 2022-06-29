@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1114px;
+    margin: auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px red;
+    height: 52px;
+}
+.header-logo{
+border: solid 1px purple;
+height: 41px;
+}
+a{
+    text-decoration: none;
+}
+
+.banner-wrapper{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px red;
+    height: 467px;
+}
+
+.about-wrapper{
+    display: flex;
+ justify-content: space-between;
+ border: solid 2px red;   
+}
+.about-text{
+    height: 528px;
+    border: solid 1px black;
+}
+.about-img{
+    height: 528px;
+    border: solid 1px blue;
+}
+
+.fact-wrapper{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px red;
+    }
+.fact-text{
+    height: 111px;
+    border: solid 1px yellowgreen;
+}
+
+.statis-wrapper{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px red;
+    height: 143px;
+}
+
+.service-wrapper{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px red;
+}
+.service-text{
+    height: 103px;
+    border: solid 1px orangered;
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    height: 543px;
+}
+.cards-items{
+    height: 238px;
+    width: 364px;
+    border: 1px solid blue;
+}
+
+.call-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    height: 125px;
+}
+
+
+.port-text{
+    height: 85px;
+    border: 1px solid orangered;   
+}
+.port-img{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+}
+.port-items{
+    width: 33.3%;
+    height: 100px;
+    border: 1px solid blue;    
+}
